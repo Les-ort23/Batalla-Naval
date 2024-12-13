@@ -1,24 +1,26 @@
+
 # ✰ ✰ ✰  Bienvenido al Juego de Batalla Naval   ✰ ✰ ✰ 
 ```
- ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+ ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
  ☆                                                                              ☆
  ☆              __|_                                                            ☆
  ☆         ------(_)------              BATALLA NAVAL CON MATRICES              ☆
  ☆           \  (   )  /                   DE TAMAÑO VARIABLE                   ☆
  ☆   ~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                ☆
  ☆                                                                              ☆
- ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+ ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
 ```
 
 
 
 ### Integrantes:
+```
 •	Arellano Alvarez Alberto David.
 •	Barajas Lopez Cesar Uriel.
 •	Barrientos Herrera Naomi Amayrami.
 •	Guzmán Solís José Francisco.
 •	Ortiz Domínguez Lesli.
-
+```
 
 ### ---------------------------------- ¡ NOTA IMPORTANTE ! ----------------------------------
 
@@ -49,10 +51,11 @@ Tamaño Variable: Cada tablero es una matriz de tamaño variable, especificado p
 
 
 ### ------------------------------- Representación Gráfica --------------------------------
+```
 Agua: ~
 Acierto: X
 Fallo: O
-
+```
 
 ### ----------------------------------- Reglas del Juego ----------------------------------
 
