@@ -1,16 +1,18 @@
-# ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
-# ☆                                                                             ☆
-# ☆              __|_                                                           ☆
-# ☆         ------(_)------              BATALLA NAVAL CON MATRICES             ☆
-# ☆           \  (   )  /                   DE TAMAÑO VARIABLE                  ☆
-# ☆   ~~~~~~~~~~~~~~~~~~~~~~~~~~~                                               ☆
-# ☆                                                                             ☆
-# ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+# ✰ ✰ ✰  Bienvenido al Juego de Batalla Naval   ✰ ✰ ✰ 
+```
+ ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+ ☆                                                                              ☆
+ ☆              __|_                                                            ☆
+ ☆         ------(_)------              BATALLA NAVAL CON MATRICES              ☆
+ ☆           \  (   )  /                   DE TAMAÑO VARIABLE                   ☆
+ ☆   ~~~~~~~~~~~~~~~~~~~~~~~~~~~                                                ☆
+ ☆                                                                              ☆
+ ☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆☆
+```
 
 
------------------------- Bienvenido al Juego de Batalla Naval --------------------------
 
-Integrantes:
+### Integrantes:
 •	Arellano Alvarez Alberto David.
 •	Barajas Lopez Cesar Uriel.
 •	Barrientos Herrera Naomi Amayrami.
@@ -18,8 +20,7 @@ Integrantes:
 •	Ortiz Domínguez Lesli.
 
 
-
----------------------------------- NOTA IMPORTANTE!!! ----------------------------------
+### ---------------------------------- ¡ NOTA IMPORTANTE ! ----------------------------------
 
 Para la realización y compilación de este proyecto de Batalla Naval, utilizamos las siguientes herramientas, mismas que se recomienda utilizar para la correcta ejecución de este programa:
 
@@ -33,31 +34,27 @@ Estas herramientas aseguraron un entorno de desarrollo robusto y actualizado par
 
 
 
-------------------------------------- Descripción -------------------------------------
-
+### ------------------------------------- Descripción -------------------------------------
 Bienvenido al juego de Batalla Naval, implementado en Java. Este juego clásico te permite jugar contra un oponente virtual (bot) en un tablero de tamaño variable. El objetivo es hundir el barco del oponente antes de que el oponente hunda el tuyo.
 
 
------------------------------- Demostración del Programa ------------------------------ 
-
+### ------------------------------ Demostración del Programa ------------------------------ 
 Para una comprensión más clara de cómo funciona nuestro programa de Batalla Naval, hemos preparado un video de demostración. Puedes verlo en el siguiente enlace:
 https://youtu.be/ZYINsM81GHU
 
 
------------------------------------ Características -----------------------------------
-
+### ----------------------------------- Características -----------------------------------
 Tableros: Dos tableros, uno para el jugador y otro para el bot.
 Tamaño Variable: Cada tablero es una matriz de tamaño variable, especificado por el usuario.
 
 
-------------------------------- Representación Gráfica --------------------------------
-
+### ------------------------------- Representación Gráfica --------------------------------
 Agua: ~
 Acierto: X
 Fallo: O
 
 
------------------------------------ Reglas del Juego ----------------------------------
+### ----------------------------------- Reglas del Juego ----------------------------------
 
 1. Configuración:
 El usuario especifica el tamaño del tablero al inicio del juego.
@@ -73,10 +70,10 @@ Si no hay ningún barco en esa casilla, se representa con una O.
 El primer jugador que hunda el barco del oponente gana el juego.
 
 
---------------------------------- Ejemplo de Tableros ---------------------------------
+### --------------------------------- Ejemplo de Tableros ---------------------------------
 
-Tablero Inicial de Tamaño 5x5
-
+#### Tablero Inicial de Tamaño 5x5
+```
 Tu tablero:
   A B C D E
 1 ~ ~ ~ ~ ~
@@ -92,10 +89,9 @@ Tablero del bot:
 3 ~ ~ ~ ~ ~
 4 ~ ~ ~ ~ ~
 5 ~ ~ ~ ~ ~
-
-
-Tablero Después de Fallar
-
+```
+#### Tablero Después de Fallar
+```
 Tu tablero:
   A B C D E
 1 O ~ ~ ~ ~
@@ -111,10 +107,9 @@ Tablero del bot:
 3 ~ ~ ~ ~ ~
 4 ~ O ~ ~ ~
 5 ~ ~ ~ ~ ~
-
-
-Tablero Después de Acertar
-
+```
+#### Tablero Después de Acertar
+```
 Tu tablero:
   A B C D E
 1 X ~ ~ ~ ~
@@ -131,10 +126,11 @@ Tablero del bot:
 4 ~ O ~ ~ ~
 5 ~ ~ ~ X ~
 
+```
 
 
 
---------------------------------- Estructura del Código ---------------------------------
+### --------------------------------- Estructura del Código ---------------------------------
 
 Tablero: Gestiona el estado del tablero del jugador y del bot.
 Jugador: Gestiona las acciones de cada jugador.
@@ -144,11 +140,12 @@ BatallaNaval: Punto de entrada del programa.
 
 
 
-
+```
          ~~~ Gracias por jugar Batalla Naval! ~~~
 
 
                            __|__         
                       ------(_)------     
                         \  (   )  /      
-              ~~~~~~~~~~~~~~~~~~~~~~~~~~~      
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~  
+```
