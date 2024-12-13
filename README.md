@@ -13,7 +13,7 @@
 
 
 
-### Integrantes:
+### INTEGRANTES:
 ```
 •	Arellano Alvarez Alberto David.
 •	Barajas Lopez Cesar Uriel.
@@ -36,28 +36,28 @@ Estas herramientas aseguraron un entorno de desarrollo robusto y actualizado par
 
 
 
-### ------------------------------------- Descripción -------------------------------------
+### ------------------------------------- DESCRIPCIÓN -------------------------------------
 Bienvenido al juego de Batalla Naval, implementado en Java. Este juego clásico te permite jugar contra un oponente virtual (bot) en un tablero de tamaño variable. El objetivo es hundir el barco del oponente antes de que el oponente hunda el tuyo.
 
 
-### ------------------------------ Demostración del Programa ------------------------------ 
+### ------------------------------ DEMOSTRACIÓN DEL PROGRAMA ------------------------------ 
 Para una comprensión más clara de cómo funciona nuestro programa de Batalla Naval, hemos preparado un video de demostración. Puedes verlo en el siguiente enlace:
 https://youtu.be/ZYINsM81GHU
 
 
-### ----------------------------------- Características -----------------------------------
+### ----------------------------------- CARACTERÍSTICAS -----------------------------------
 Tableros: Dos tableros, uno para el jugador y otro para el bot.
 Tamaño Variable: Cada tablero es una matriz de tamaño variable, especificado por el usuario.
 
 
-### ------------------------------- Representación Gráfica --------------------------------
+### ------------------------------- REPRESENTACIÓN GRÁFICA --------------------------------
 ```
 Agua: ~
 Acierto: X
 Fallo: O
 ```
 
-### ----------------------------------- Reglas del Juego ----------------------------------
+### ----------------------------------- REGLAS DEL JUEGO ----------------------------------
 
 1. Configuración:
 El usuario especifica el tamaño del tablero al inicio del juego.
@@ -73,7 +73,7 @@ Si no hay ningún barco en esa casilla, se representa con una O.
 El primer jugador que hunda el barco del oponente gana el juego.
 
 
-### --------------------------------- Ejemplo de Tableros ---------------------------------
+### --------------------------------- EJEMPLO DE TABLEROS ---------------------------------
 
 #### Tablero Inicial de Tamaño 5x5
 ```
@@ -133,7 +133,7 @@ Tablero del bot:
 
 
 
-### --------------------------------- Estructura del Código ---------------------------------
+### --------------------------------- ESTRUCTURA DEL CÓDIGO ---------------------------------
 
 Tablero: Gestiona el estado del tablero del jugador y del bot.
 Jugador: Gestiona las acciones de cada jugador.
